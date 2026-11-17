@@ -115,7 +115,7 @@ if __name__ == "__main__":
 
     e2 = [1,2,'+',4,'*',5,'+']
     print("Evaluation de 1 2 + 4 * 5 +")
-    print(eval_NPI_liste(e2, True))
+    print(eval_NPI_liste(e2, False))
 
     e3 = [1,'+',4]
     print("Evaluation de 1 + 4")
